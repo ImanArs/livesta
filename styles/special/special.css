@@ -1,0 +1,124 @@
+.special {
+  display: flex;
+  flex-direction: column;
+}
+.special__top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.special__top--left {
+  width: 94%;
+  margin-left: 40px;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.special__top--left h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #79A207;
+}
+.special__top--left h2 {
+  font-size: 34px;
+  font-weight: 500;
+}
+.special__top--left h4 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.special__top--left p {
+  font-weight: 500;
+  line-height: 26px;
+}
+.special__top--left .quality {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.special__top--left .quality__card {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+.special__top--left .quality__card img {
+  padding: 15px;
+  border-radius: 50%;
+  background: #FAF5F2;
+}
+.special__top--left .quality__card h3 {
+  font-size: 22px;
+  color: #000;
+  font-weight: 500;
+}
+.special__top--left .quality__card p {
+  font-weight: 300;
+  line-height: 26px;
+}
+.special__top--right {
+  width: 100%;
+}
+.special__top--right img {
+  width: 100%;
+  height: 100%;
+}
+
+.FAQ {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.FAQ__right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  gap: 25px;
+}
+.FAQ__right h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #79A207;
+}
+.FAQ__right h2 {
+  font-size: 34px;
+  font-weight: 500;
+}
+.FAQ__right h4 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.FAQ__right p {
+  font-weight: 500;
+  line-height: 26px;
+}
+.FAQ__right .quality {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.FAQ__right .quality__card {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+.FAQ__right .quality__card img {
+  padding: 15px;
+  border-radius: 50%;
+  background: #FAF5F2;
+}
+.FAQ__right .quality__card h3 {
+  font-size: 22px;
+  color: #000;
+  font-weight: 500;
+}
+.FAQ__right .quality__card p {
+  font-weight: 300;
+  line-height: 26px;
+}
+.FAQ__left {
+  width: 100%;
+}
+.FAQ__left img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=special.css.map */

@@ -1,0 +1,7 @@
+@import url(./styles/header/header.css);
+@import url(./styles/special/special.css);
+@import url(./styles/signUp/signUp.css);
+
+main {
+  margin-top: 100px;
+}
