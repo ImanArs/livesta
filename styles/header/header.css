@@ -53,6 +53,9 @@
   font-size: 26px;
   color: #F05FC1;
 }
+.banner .banner__wrapper .banner__top img {
+  width: 400px;
+}
 .banner .banner__wrapper .banner__bottom {
   margin-top: 45px;
   display: flex;
@@ -124,6 +127,45 @@
   color: #fff;
   background: #79A207;
   border: none;
+}
+
+.register {
+  max-width: 2600px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 60px auto;
+}
+.register img {
+  height: 650px;
+  width: 50%;
+}
+.register--form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.register--form label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.register--form label input, .register--form label textarea {
+  padding: 16px 10px;
+  border: 1px solid #F05FC1;
+  font-size: 18px;
+}
+.register--form button {
+  padding: 16px 10px;
+  background: #F05FC1;
+  color: #fff;
+  border: none;
+}
+.register--form button:hover {
+  background: #be4c9a;
+  color: #fff;
 }
 
 .status {

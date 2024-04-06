@@ -6,6 +6,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
   <header class="header">
@@ -27,6 +28,19 @@
     </div>
   </header>
   <main>
+    <div class="my-swiper">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./assets/images/swiper_1.jpeg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/swiper_2.jpeg" alt=""></div>
+          <!-- <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div> -->
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
     <section class="banner">
       <div class="banner__wrapper">
         <div class="banner__top">
@@ -36,17 +50,18 @@
             найкращі бренди для сім'ї <br>
             <span>отримуй максимальну знижку 30% та -75% на один продукт.</span>
           </h1>
-          <img src="https://agency-siam.ru/press/img/teni/image_1000.jpg" alt="">
+          <!-- <img src="https://agency-siam.ru/press/img/teni/image_1000.jpg" alt=""> -->
+          <img src="./assets/images/livesta_girl.jpeg" alt="">
         </div>
         <div class="banner__bottom">
           <button>заказать</button>
-          <button>каталог ливеста</button>
+          <button>зарегестрироваться</button>
           <div></div>
         </div>
       </div>
     </section>
 
-    <section class="info">
+    <!-- <section class="info">
       <img src="https://beautystore.net.ua/x100/vesna_2024.png" alt="">
       <div class="info-wrapper">
         <img src="https://beautystore.net.ua/buklet_livesta_04/buklet_livesta_04%20661.jpg" alt="">
@@ -58,7 +73,7 @@
         <img src="https://beautystore.net.ua/buklet_livesta_04/buklet_livesta_04%20672.jpg" alt="">
       </div>
       <img src="https://beautystore.net.ua/x100/vesna_2024.png" alt="">
-    </section>
+    </section> -->
 
     <section class="about">
       <div class="about__wrapper">
@@ -77,6 +92,77 @@
         </div>
         <div class="about__wrapper--images">
           <img src="https://agency-siam.ru/press/img/teni/image_1000.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="register">
+      <form class="register--form">
+        <label>
+          Имя*
+          <input type="text" name="" id="" placeholder="Имя*">
+        </label>
+        <label>
+          Телефон*
+          <input type="text" name="" id="" placeholder="Телефон*">
+        </label>
+        <label>
+          Зателефонувати Вам дата/час*
+          <input type="text" name="" id="" placeholder="Зателефонувати Вам дата/час*">
+        </label>
+        <label>
+          Данные*
+          <textarea name="" id="" cols="30" rows="10" placeholder="Данные*"></textarea>
+        </label>
+        <button>зарегестрироваться</button>
+      </form>
+      <img src="./assets/images/livesta_form.jpeg" alt="">
+    </section>
+    <section class="special">
+      <div class="special__top">
+        <div class="special__top--left">
+          <h3>―ОСОБЛИВОСТІ―</h3>
+          <h2>Чому вибирають нас</h2>
+          <div>
+            <h4>1. ВСЕ В ОДНОМУ МІСТІ: TELEGRAM</h4>
+            <h4>2. З НАМИ ви побачите, що Бути ОНЛАЙН – це ЛЕГКО та ВИГІДНО!</h4>
+          </div>
+          <div>
+            <p><b>Онлайн</b> це не ваша можливість, <b>ЦЕ ваша потреба</b>.</p>
+            <p>• Достатньо мати: телефон, інтернет, telegram та бажання!</p>
+          </div>
+          <div>
+            <p><b>Готова</b> до змін? <b>Хочеш</b> навчитися практичним навичкам?</p>
+            <p><span>Запишись</span> на консультацію Telegram і я СТАНУ твоїм провідник для нового етапу розвитку! </p>
+          </div>
+          <div class="quality">
+            <div class="quality__card">
+              <img src="./assets/icons/like_icon.png" alt="">
+              <div>
+                <h3>Зручно та комфортно</h3>
+                <p>Ми НЕ дзвонимо, НЕ турбуємо, НЕ нав'язуємо!</p>
+                <p>• Після реєстрації надамо доступ в телеграм-канал та чат підтримки</p>
+              </div>
+            </div>
+            <div class="quality__card">
+              <img src="./assets/icons/edu_icon.png" alt="">
+              <div>
+                <h3>Ефективно та професійно</h3>
+                <p>Надаємо вам докладну інформацію в каналах комунікації.</p>
+                <p>• Онлайн-зустрічі, презентації та навчання</p>
+              </div>
+            </div>
+            <div class="quality__card">
+              <img src="./assets/icons/chat_icon.png" alt="">
+              <div>
+                <h3>Інноваційно та захоплююче</h3>
+                <p>Ставши партнером команди, прораховуємо план розвитку на рік і йдемо до вашого результату</p>
+                <p>• Після підтвердження статусу "Лідер" - 3 рази підряд, надаємо доступ до закритих телеграм-каналів "Клубу Онлайн бізнес Легко" </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="special__top--right">
+          <img src="https://st3.depositphotos.com/1017986/32556/i/450/depositphotos_325563062-stock-photo-makeup-perfume-and-cosmetics-on.jpg" alt="">
         </div>
       </div>
     </section>
@@ -263,5 +349,27 @@
       </div>
     </section>
   </main>
+    <!-- Slider main container -->
+    
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      parallax: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      controller: {
+        inverse: true,
+      },
+      a11y: {
+        prevSlideMessage: 'Previous slide',
+        nextSlideMessage: 'Next slide',
+      },
+      speed: 400,
+      slidesPerView: 1,
+      spaceBetween: 100,
+    });
+  </script>
 </body>
 </html>

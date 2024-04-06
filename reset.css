@@ -11,7 +11,7 @@ html,body {
   scroll-behavior: smooth;
 }
 
-input, button {
+input, button, textarea {
   outline: none;
 }
 a {
