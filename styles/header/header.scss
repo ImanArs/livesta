@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #F05FC1;
+  --primary-color-hover: #be4c9a;
+  --primary-color-green: #79A207;
+  --dark-color-green: #0F3D02;
+}
+
 .header {
   max-width: 2600px;
   background: #fff;
@@ -5,6 +12,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 9;
 
   .header__wrapper {
     width: 80%;
@@ -53,7 +61,7 @@
         line-height: 56px;
         span {
           font-size: 26px;
-          color: #F05FC1;
+          color: var(--primary-color);
         }
       }
       img {
@@ -72,7 +80,7 @@
         &:nth-child(1) {
           color: #fff;
           border-color: #0000;
-          background: #79A207;
+          background: var(--primary-color);
         }
         &:nth-child(2) {
           margin: 0 auto;
@@ -103,7 +111,7 @@
       h3 {
         font-size: 14px;
         font-weight: 600;
-        color: #79A207;
+        color: var(--primary-color);
       }
 
       h2 {
@@ -111,7 +119,7 @@
         font-weight: 500;
         width: 550px;
         span {
-          color: #F05FC1;
+          color: var(--primary-color);
         }
       }
 
@@ -135,8 +143,11 @@
       padding: 15px 25px;
       border-radius: 50px;
       color: #fff;
-      background: #79A207;
+      background: var(--primary-color);
       border: none;
+      &:hover {
+        background: var(--primary-color-hover);
+      }
     }
   }
 }
@@ -164,17 +175,17 @@
       gap: 10px;
       input, textarea {
         padding: 16px 10px;
-        border: 1px solid #F05FC1;
+        border: 1px solid var(--primary-color);
         font-size: 18px;
       }
     }
     button {
       padding: 16px 10px;
-      background: #F05FC1;
+      background: var(--primary-color);
       color: #fff;
       border: none;
       &:hover {
-        background: #be4c9a;
+        background: var(--primary-color-hover);
         color: #fff;
       }
     }
@@ -183,7 +194,7 @@
 
 .status {
   max-width: 2600px;
-  background: #0F3D02;
+  background: var(--primary-color-hover);
   padding: 60px 0;
 
   .status__wrapper {
@@ -234,7 +245,7 @@
     h3 {
       font-size: 14px;
       font-weight: 600;
-      color: #79A207;
+      color: var(--primary-color);
     }
     h2 {
       font-size: 34px;
@@ -259,7 +270,7 @@
       h3 {
         font-size: 16px;
         font-weight: 600;
-        color: #79A207;
+        color: var(--primary-color);
       }
       h4 {
         padding: 10px 0;

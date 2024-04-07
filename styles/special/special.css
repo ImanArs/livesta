@@ -17,7 +17,7 @@
 .special__top--left h3 {
   font-size: 14px;
   font-weight: 600;
-  color: #79A207;
+  color: var(--primary-color);
 }
 .special__top--left h2 {
   font-size: 34px;
@@ -43,6 +43,7 @@
 }
 .special__top--left .quality__card img {
   padding: 15px;
+  width: 78px;
   border-radius: 50%;
   background: #FAF5F2;
 }
@@ -77,7 +78,7 @@
 .FAQ__right h3 {
   font-size: 14px;
   font-weight: 600;
-  color: #79A207;
+  color: var(--primary-color);
 }
 .FAQ__right h2 {
   font-size: 34px;
@@ -103,6 +104,7 @@
 }
 .FAQ__right .quality__card img {
   padding: 15px;
+  width: 78px;
   border-radius: 50%;
   background: #FAF5F2;
 }

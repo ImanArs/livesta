@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #F05FC1;
+  --primary-color-hover: #be4c9a;
+  --primary-color-green: #79A207;
+  --dark-color-green: #0F3D02;
+}
+
 .header {
   max-width: 2600px;
   background: #fff;
@@ -5,6 +12,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 9;
 }
 .header .header__wrapper {
   width: 80%;
@@ -51,7 +59,7 @@
 }
 .banner .banner__wrapper .banner__top h1 span {
   font-size: 26px;
-  color: #F05FC1;
+  color: var(--primary-color);
 }
 .banner .banner__wrapper .banner__top img {
   width: 400px;
@@ -70,7 +78,7 @@
 .banner .banner__wrapper .banner__bottom button:nth-child(1) {
   color: #fff;
   border-color: rgba(0, 0, 0, 0);
-  background: #79A207;
+  background: var(--primary-color);
 }
 .banner .banner__wrapper .banner__bottom button:nth-child(2) {
   margin: 0 auto;
@@ -98,7 +106,7 @@
 .about__wrapper--info h3 {
   font-size: 14px;
   font-weight: 600;
-  color: #79A207;
+  color: var(--primary-color);
 }
 .about__wrapper--info h2 {
   font-size: 38px;
@@ -106,7 +114,7 @@
   width: 550px;
 }
 .about__wrapper--info h2 span {
-  color: #F05FC1;
+  color: var(--primary-color);
 }
 .about__wrapper--info p {
   font-weight: 300;
@@ -125,8 +133,11 @@
   padding: 15px 25px;
   border-radius: 50px;
   color: #fff;
-  background: #79A207;
+  background: var(--primary-color);
   border: none;
+}
+.about__wrapper button:hover {
+  background: var(--primary-color-hover);
 }
 
 .register {
@@ -154,23 +165,23 @@
 }
 .register--form label input, .register--form label textarea {
   padding: 16px 10px;
-  border: 1px solid #F05FC1;
+  border: 1px solid var(--primary-color);
   font-size: 18px;
 }
 .register--form button {
   padding: 16px 10px;
-  background: #F05FC1;
+  background: var(--primary-color);
   color: #fff;
   border: none;
 }
 .register--form button:hover {
-  background: #be4c9a;
+  background: var(--primary-color-hover);
   color: #fff;
 }
 
 .status {
   max-width: 2600px;
-  background: #0F3D02;
+  background: var(--primary-color-hover);
   padding: 60px 0;
 }
 .status .status__wrapper {
@@ -221,7 +232,7 @@
 .business__top h3 {
   font-size: 14px;
   font-weight: 600;
-  color: #79A207;
+  color: var(--primary-color);
 }
 .business__top h2 {
   font-size: 34px;
@@ -246,7 +257,7 @@
 .business__bottom--card h3 {
   font-size: 16px;
   font-weight: 600;
-  color: #79A207;
+  color: var(--primary-color);
 }
 .business__bottom--card h4 {
   padding: 10px 0;
