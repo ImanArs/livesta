@@ -9,10 +9,30 @@ main {
 .my-swiper {
   max-width: 1230px;
   width: 100%;
-  margin: 0 auto;
+  height: 400px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+  .my-swiper {
+    display: none;
+  }
+}
+.my-swiper {
+  max-width: 1230px;
+  width: 100%;
+  height: 400px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 6px;
+  box-sizing: border-box;
 }
 .my-swiper img {
+  max-width: 1230px;
   width: 100%;
+  height: 400px;
 }
 
 .swiper-button-next, .swiper-button-prev {
